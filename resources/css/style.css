@@ -97,6 +97,22 @@
     }
 
     /* --------------------------------------*/
+    /*            MOBILE                     */
+    /* --------------------------------------*/
+
+    .mobile-nav-icon {
+      float: right;
+      margin-top: 30px;
+      cursor: pointer;
+      display: none;
+    }
+
+    .mobile-nav-icon i {
+      font-size: 200%;
+      color: #fff;
+    }
+
+    /* --------------------------------------*/
     /*            STICKY                     */
     /* --------------------------------------*/
 
@@ -110,7 +126,7 @@
     }
 
     .sticky .main-nav li a:link,.sticky .main-nav li a:visited {
-      padding: 16   px 0px;
+      padding: 16px 0px;
       color: #555;
       box-shadow: 0 2px 2px #efefef;
     }
